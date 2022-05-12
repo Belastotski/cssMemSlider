@@ -50,7 +50,15 @@ body {
 #ctrl2:checked ~#main #controller #in-ctrl2,
 #ctrl3:checked ~#main #controller #in-ctrl3,
 #ctrl4:checked ~#main #controller #in-ctrl4{
-    border: .125em solid rgb(249, 249, 252);
+    border: .125em solid rgb(60, 60, 240);;
+    background: inherit;
+}
+
+#ctrl1:checked ~#main #controller .area:hover #in-ctrl1,
+#ctrl2:checked ~#main #controller .area:hover #in-ctrl2,
+#ctrl3:checked ~#main #controller .area:hover #in-ctrl3,
+#ctrl4:checked ~#main #controller .area:hover #in-ctrl4{
+    border: .125em solid rgb(255, 255, 255);;
     background: inherit;
 }
 
