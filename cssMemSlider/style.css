@@ -41,8 +41,12 @@ body {
     margin: 0.2em
 }
 
+.area:hover {
+    cursor: pointer;
+}
+
 .area:hover .in {
-    background: white
+    background: white;
 }
 
 
@@ -60,6 +64,7 @@ body {
 #ctrl4:checked ~#main #controller .area:hover #in-ctrl4{
     border: .125em solid rgb(255, 255, 255);;
     background: inherit;
+    cursor: pointer;
 }
 
 .in { 
